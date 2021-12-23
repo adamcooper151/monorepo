@@ -1,5 +1,5 @@
 const Hello = () => {
-  return "Hello Hello Hello";
+  return "Hello Hello";
 };
 
 export default Hello;
