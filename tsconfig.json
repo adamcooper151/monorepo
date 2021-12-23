@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./packages",
+    "paths": {
+      "@adam-deps/a/*": ["a/src/*"],
+      "@adam-deps/b/*": ["b/src/*"],
+      "@adam-deps/c/*": ["c/src/*"]
+    }
+  }
+}

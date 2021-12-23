@@ -1,6 +1,6 @@
 [submodule "apps/my-app"]
-	path = apps/my-app
-	url = git@github.com:adamcooper151/my-app.git
+    path = apps/my-app
+    url = git@github.com:adamcooper151/my-app.git
 [submodule "apps/my-app-2"]
-	path = apps/my-app-2
-	url = git@github.com:adamcooper151/my-app-2.git
+    path = apps/my-app-2
+    url = git@github.com:adamcooper151/my-app-2.git
