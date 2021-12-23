@@ -1,6 +1,7 @@
 {
-  "name": "@adam-shared/c",
+  "name": "@adam-deps/c",
   "version": "1.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "8d4d03ecd4051c88e03ef0f90db69c1fb50fec47"
 }
