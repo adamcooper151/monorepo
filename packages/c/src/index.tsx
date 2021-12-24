@@ -1,14 +1,14 @@
 import * as React from "react";
 import Hello from "@adam-deps/a";
-import Goodbye from "@adam-deps/b";
+import World from "@adam-deps/b";
 
-const HelloGoodbye = () => {
+const HelloWorld = () => {
   return (
     <>
       <Hello />
-      <Goodbye />
+      <World />
     </>
   );
 };
 
-export default HelloGoodbye;
+export default HelloWorld;

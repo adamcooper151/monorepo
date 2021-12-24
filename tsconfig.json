@@ -7,5 +7,23 @@
       "@adam-deps/b/*": ["b/src/*"],
       "@adam-deps/c/*": ["c/src/*"]
     }
-  }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "apps/my-app-2"
+    },
+    {
+      "path": "apps/my-app"
+    },
+    {
+      "path": "packages/a"
+    },
+    {
+      "path": "packages/b"
+    },
+    {
+      "path": "packages/c"
+    }
+  ]
 }

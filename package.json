@@ -12,8 +12,10 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
+    "prepare": "node ./configure-references.js",
     "build": "lerna run build --stream",
+    "watch": "lerna run watch --stream --parallel",
     "lint": "lerna run lint --stream --parallel",
-    "test": "yarn jest --coverage"
+    "test": "lerna run test"
   }
 }

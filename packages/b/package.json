@@ -1,10 +1,20 @@
 {
   "name": "@adam-deps/b",
   "version": "1.0.3",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "gitHead": "8d4d03ecd4051c88e03ef0f90db69c1fb50fec47",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn compile",
+    "watch": "yarn clean && tsc --build -w && cp \"./package.json\" ./dist/",
+    "compile": "tsc --build && cp \"./package.json\" ./dist/",
+    "test": "echo 'no test'",
+    "lint": "eslint \"./src/**/*.{ts,tsx}\" --max-warnings=0"
   }
 }

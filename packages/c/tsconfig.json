@@ -5,8 +5,15 @@
         "rootDir": "./src",
         "outDir": "./dist"
     },
+    "references": [
+        {
+            "path": "../a"
+        },
+        {
+            "path": "../b"
+        }
+    ],
     "include": [
         "src/**/*"
-    ],
-    "references": []
+    ]
 }

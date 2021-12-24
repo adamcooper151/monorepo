@@ -9,9 +9,10 @@
     "access": "public"
   },
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
     "prepack": "yarn build",
     "build": "yarn clean && yarn compile",
+    "watch": "yarn clean && tsc --build -w && cp \"./package.json\" ./dist/",
     "compile": "tsc --build && cp \"./package.json\" ./dist/",
     "test": "echo 'no test'",
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --max-warnings=0"

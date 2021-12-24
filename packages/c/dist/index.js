@@ -18,9 +18,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-var Hello = function () {
-    return React.createElement("div", null, "Hello");
+var a_1 = __importDefault(require("@adam-deps/a"));
+var b_1 = __importDefault(require("@adam-deps/b"));
+var HelloWorld = function () {
+    return (React.createElement(React.Fragment, null,
+        React.createElement(a_1.default, null),
+        React.createElement(b_1.default, null)));
 };
-exports.default = Hello;
+exports.default = HelloWorld;

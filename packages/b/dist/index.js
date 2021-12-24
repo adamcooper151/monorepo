@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-var Hello = function () {
-    return React.createElement("div", null, "Hello");
+var World = function () {
+    return React.createElement("div", null, "World");
 };
-exports.default = Hello;
+exports.default = World;
